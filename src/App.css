@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+h1{
+  font-size:25px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-size:20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h3{
+  font-size:18px;
+}
+h4{
+  font-size:16px;
+}
+h5{
+  font-size: 13px;;
+}
+.bold{
+  font-weight: bold;
+}
+.display-flex{
+    display:flex;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .justifycontent-center {
+    justify-content:center;
   }
-  to {
-    transform: rotate(360deg);
+  .justifycontent-spacebetween{
+   justify-content:space-between;
   }
-}
+  .justifycontent-spacearound{
+    justify-content:space-around;
+  } 
+  .wc{
+    color:white;
+  }
+  .wb{
+    background-color:#fff;
+  }
+  .bc{
+    color:#000;
+  }
+  .p-r{
+    position:relative;
+  }
+  .p-a{
+     position:absolute;
+  }
+  .borderradius{
+   border-radius: 10px;
+  }
+  .bg-shade{
+    background-color:#EFEFEF;
+  }
+  .feedbackbox{
+    width:50%;
+    margin:0px auto;
+    border-radius:10px;
+  }
+  .inputstyle{
+    border-radius: 5px;
+    padding: 6px 60px;
+    margin-right: 50px;
+    margin-left: 150px;
+    color:#000;
+  }
+  .box{
+    border-radius:10px;
+  }
+  .delete{
+    background-color: red;
+    color:#fff;
+    border-radius:5px;
+    margin-right: 15px;
+  }
+  .edit{
+    background-color: green;
+    color: #fff;
+  }
+  .absolute{
+    right:0px;
+  }

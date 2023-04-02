@@ -1,0 +1,19 @@
+.display-flex{
+    display:flex;
+  }
+  .justifycontent-center {
+    justify-content: center;
+  }
+  .justifycontent-spacebetween{
+    justify-content: spacebetween;
+  }
+  .justifycontent-spacearound{
+    justify-content: spacearound;
+  }
+  .bg-red{
+    background-color:red;
+  }
+  .box{
+    width:90%;
+    margin:0px auto;
+  }
